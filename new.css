@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+nav a{
+    color: rgb(209, 103, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 30px;  
+    font-weight: bold;
+}
+
+nav ul{
+    margin-left: 55%;
+    margin-top: -40px;
+}
+
+nav h1{
+    color: white;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+nav{
+    background-color: black;
+    margin-top: -10px;
+    height: 80px;
+}
+
+.nav a:hover{
+    color: white;
+}
+
+nav .active{
+    color: white;
+}
+
+.hd{
+    margin-left: 30px;
+    margin-top: 10px;
+    color:  rgb(116, 1, 165);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-shadow: 4px 3px 2px plum;
+}
+
+p{
+    font-size: 25px;
+    font-family: cursive;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+h2{
+    margin-top: 20px;
+    color: rgb(94, 2, 134);
+    text-align: center;
+    font-weight: bold;
+    font-size: 37px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.gr{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    list-style-type: SQUARE;
+    font-size: 23px;
+    margin-left: 220px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skl{
+    font-size: 23px;
+    margin-left: 220px;
+    margin-top: 10px;
+    padding: 10PX;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skl li{
+  list-style-type: square;
+}
+
+.skl span{
+    font-weight: 750;
+    font-size: 25px;
+}
+
+.ca{
+    font-size: 23px;
+    margin-left: 400px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ca ul li{
+    padding-bottom: 10px;
+    list-style-type: square;
+}
+
+.ca span{
+    font-weight: 750;
+    font-size: 25px;
+}
+
+/* phone */
+
+@media (min-width: 310px) and (max-width: 480px){
+
+    nav a{
+        color: rgb(209, 103, 255);
+        text-decoration: none;
+        font-size: 13px;
+        padding-left: 14px;  
+        font-weight: bold;
+    }
+    
+    nav ul{
+        margin-left: 12%;
+        margin-top: -45px;
+        padding: 10px;
+    }
+
+    nav h1{
+        color: white;
+        font-size: 30px;
+        margin-left: 1px;
+        margin-top: 13px;
+        padding: 7px;
+    }
+
+    nav{
+        background-color: black;
+        height: 45px;
+        margin-top: -13px;
+    }
+
+    .nav a:hover{
+        color: white;
+    }
+
+    nav .active{
+        color: white;
+    }
+
+    .hd{
+        text-shadow: 4px 3px 2px plum;
+        margin-right: 30px;
+        margin-top: 10px;
+        color:  rgb(116, 1, 165);
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p{
+        font-size: 12px;
+        font-family: cursive;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    h2{
+        margin-top: 10px;
+        color: rgb(94, 2, 134);
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .gr{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        list-style-type: SQUARE;
+        font-size: 13px;
+        margin-left: 60px;
+        margin-top: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .skl{
+        font-size: 13px;
+        margin-left: 30px;
+        margin-top: 5px;
+        padding: 0.1px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 6px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .skl li{
+        list-style-type: square;
+    }
+
+    .skl span{
+        font-weight: 750;
+        font-size: 15px;
+    }
+    
+    .ca{
+        font-size: 13px;
+        margin-left: 30px;
+        margin-top: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .ca ul li{
+        padding-bottom: 10px;
+        list-style-type: square;
+    }
+
+    .ca span{
+        font-weight: 750;
+        font-size: 15px;
+    }
+
+}
+
+/* tab */
+
+@media (min-width: 500px) and (max-width: 900px) {
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: white;
+    }
+
+    nav a{
+        color: rgb(209, 103, 255);
+        text-decoration: none;
+        font-size: 20px;
+        padding-left: 30px;  
+        font-weight: bold;
+    }
+
+    nav ul{
+        margin-left: 35%;
+        margin-top: -50px;
+        padding: 10px;
+    }
+
+    nav h1{
+        color: white;
+        font-size: 50px;
+        margin-left: 50px;
+        margin-top: 13px;
+    }
+
+    nav{
+        background-color: black;
+        height: 50px;
+        margin-top: -13px;
+    }
+
+    .nav a:hover{
+        color: white;
+    }
+
+    nav .active{
+        color: white;
+    }
+
+    .hd{
+        text-shadow: 4px 3px 2px plum;
+        margin-left: 30px;
+        margin-top: 10px;
+        color:  rgb(116, 1, 165);
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+        
+    p{
+        font-size: 40px;
+        font-family: cursive;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    h2{
+        margin-top: 20px;
+        color: rgb(94, 2, 134);
+        text-align: center;
+        font-weight: bold;
+        font-size: 37px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .gr{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        list-style-type: SQUARE;
+        font-size: 23px;
+        margin-left: 220px;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .skl{
+        font-size: 23px;
+        margin-left: 220px;
+        margin-top: 10px;
+        padding: 10PX;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .skl li{
+        list-style-type: square;
+    }
+
+    .skl span{
+        font-weight: 750;
+        font-size: 25px;
+    }
+
+    .ca{
+        font-size: 23px;
+        margin-left: 400px;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .ca ul li{
+        padding-bottom: 10px;
+        list-style-type: square;
+    }
+
+    .ca span{
+        font-weight: 750;
+        font-size: 25px;
+    }
+
+}
