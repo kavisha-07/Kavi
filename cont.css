@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+nav a{
+    color: rgb(209, 103, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 30px;  
+    font-weight: bold;
+}
+
+nav ul{
+    margin-left: 55%;
+    margin-top: -40px;
+}
+
+nav h1{
+    color: white;
+    font-size: 60px;
+    margin-left: 50px;
+    margin-top: 13px;
+}
+
+nav{
+    background-color: black;
+    height: 80px;
+    margin-top: -13px;
+}
+
+.nav a:hover{
+    color: white;
+}
+
+nav .active{
+    color: white;
+}
+
+.hd{
+    text-shadow: 4px 3px 2px plum;
+    margin-left: 30px;
+    margin-top: 10px;
+    color:  rgb(116, 1, 165);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    margin-left: 210px;
+    color:  rgb(174, 5, 247);
+    font-size: 37px;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3{
+    margin-left: 250px;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    color: rgb(65, 1, 92);
+    
+}
+
+form{
+    margin-left: 900px;
+    margin-top: -420px;
+    font-size: 20px;
+    font-weight: bold;
+    border: black 5px double;
+    border-radius: 40px;
+    background-color: lightgrey;
+    width: 400px;
+    height: 380px;
+}
+
+form h1{
+    font-size: 35px;
+    margin-left: 130px;
+
+}
+
+table td{
+    padding: 10px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+    height: 30px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+textarea{
+    height: 30px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(174, 5, 247);
+    color: white;
+    font-family: cursive;
+}
+
+button:hover{
+    background-color:  rgb(206, 147, 231);
+    color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* phone */
+
+@media (min-width: 310px) and (max-width: 480px){
+
+    nav a{
+        color: rgb(209, 103, 255);
+        text-decoration: none;
+        font-size: 13px;
+        padding-left: 14px;  
+        font-weight: bold;
+    }
+    
+    nav ul{
+        margin-left: 12%;
+        margin-top: -45px;
+        padding: 10px;
+    }
+
+    nav h1{
+        color: white;
+        font-size: 30px;
+        margin-left: 1px;
+        margin-top: 13px;
+        padding: 7px;
+    }
+
+    nav{
+        background-color: black;
+        height: 45px;
+        margin-top: -13px;
+    }
+
+    .nav a:hover{
+        color: white;
+    }
+
+    nav .active{
+        color: white;
+    }
+
+    .hd{
+        text-shadow: 4px 3px 2px plum;
+        margin-right: 30px;
+        margin-top: 10px;
+        color:  rgb(116, 1, 165);
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2{
+        margin-left: 60px;
+        color:  rgb(174, 5, 247);
+        font-size: 20px;
+        margin-top: 4px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    h3{
+        margin-left: 110px;
+        font-size: 17px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 3px;
+        color: rgb(65, 1, 92);
+        
+    }
+
+    form{
+        margin-left: 28px;
+        margin-top: 10px;
+        font-size: 10px;
+        font-weight: bold;
+        border: black 5px double;
+        border-radius: 40px;
+        background-color: lightgrey;
+        width: 290px;
+        height: 300px;
+    }
+
+    form h1{
+        font-size: 15px;
+
+    }
+
+    table td{
+        padding: 10px;
+        margin-left: 50px;
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    input{
+        height: 25px;
+        width: 120px;
+        border: 2px solid black;
+        border-radius: 15px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    textarea{
+        height: 25px;
+        width: 120px;
+        border: 2px solid black;
+        border-radius: 15px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    button{
+        height: 40px;
+        width: 80px;
+        border-radius: 20px;
+        border: 2px solid black;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: rgb(174, 5, 247);
+        color: white;
+        font-family: cursive;
+    }
+
+    button:hover{
+        background-color:  rgb(206, 147, 231);
+        color: black;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+}
+
+/* tab */
+
+@media (min-width: 500px) and (max-width: 900px) {
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: white;
+    }
+
+    nav a{
+        color: rgb(209, 103, 255);
+        text-decoration: none;
+        font-size: 20px;
+        padding-left: 30px;  
+        font-weight: bold;
+    }
+
+    nav ul{
+        margin-left: 35%;
+        margin-top: -50px;
+        padding: 10px;
+    }
+
+    nav h1{
+        color: white;
+        font-size: 50px;
+        margin-left: 50px;
+        margin-top: 13px;
+    }
+
+    nav{
+        background-color: black;
+        height: 60px;
+        margin-top: -13px;
+    }
+
+    .nav a:hover{
+        color: white;
+    }
+
+    nav .active{
+        color: white;
+    }
+
+    .hd{
+        text-shadow: 4px 3px 2px plum;
+        margin-left: 30px;
+        margin-top: 10px;
+        color:  rgb(116, 1, 165);
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2{
+        margin-left: 30px;
+        color:  rgb(174, 5, 247);
+        font-size: 30px;
+        margin-top: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    h3{
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 10px;
+        color: rgb(65, 1, 92);
+        
+    }
+
+    form{
+        margin-left: 450px;
+        margin-top: -340px;
+        font-size: 20px;
+        font-weight: bold;
+        border: black 5px double;
+        border-radius: 40px;
+        background-color: lightgrey;
+        width: 400px;
+        height: 380px;
+    }
+
+    form h1{
+        font-size: 35px;
+        margin-left: 130px;
+
+    }
+
+    table td{
+        padding: 10px;
+        margin-left: 50px;
+        font-size: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    input{
+        height: 30px;
+        width: 150px;
+        border: 2px solid black;
+        border-radius: 15px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    textarea{
+        height: 30px;
+        width: 150px;
+        border: 2px solid black;
+        border-radius: 15px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    button{
+        height: 50px;
+        width: 100px;
+        border-radius: 20px;
+        border: 2px solid black;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: rgb(174, 5, 247);
+        color: white;
+        font-family: cursive;
+    }
+
+    button:hover{
+        background-color:  rgb(206, 147, 231);
+        color: black;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+}
